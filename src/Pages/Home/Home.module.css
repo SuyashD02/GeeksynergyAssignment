@@ -1,0 +1,70 @@
+.mainDivHome{
+    background: linear-gradient(to right, #2A00B7, #42006c);
+
+}
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 10px;
+    
+}
+.card {
+    background: linear-gradient(to right, #f9f9fd, #d5d5fd);
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 400px;
+    height: 350px;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 5px;
+}
+.divSort{
+    display: flex;
+    justify-content: space-evenly;
+}
+.searchBar{
+    width: 20%;
+    border-radius: 10px;
+    margin-top: 10px;
+    outline: none;
+    border-color: #83ccc5;
+    background-color: #d5d5fd;
+    border: 1.5px;
+}
+.sortByDiv{
+    display:flex ;
+    width: 25%;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+/* flex w-[25%] h-[35px] justify-center items-center gap-[10px] mt-[10px]  */
+@media(max-width:600px){
+    .cardContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 90%;
+    }
+    .divSort{
+        flex-direction: column;
+        align-items: center;
+    }
+    .searchBar{
+        width: 90%;
+        height: 30px;
+    }
+    .sortByDiv{
+        width: 100%;
+        justify-content:space-evenly;
+        gap: 0px;
+    }
+}

@@ -1,0 +1,44 @@
+.mainAbout{
+    background: linear-gradient(to right, #2A00B7, #42006c);
+}
+.aboutContainer {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  .title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .description {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .contactList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contactList li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  
